@@ -5,9 +5,9 @@ namespace Moovin\Job\Backend\Tests;
 use Moovin\Job\Backend;
 
 /**
- * Teste unitário da classe Moovin\Job\Backend\Exemplo
+ * Teste unitï¿½rio da classe Moovin\Job\Backend\Exemplo
  */
-class ExemploTest extends \PHPUnit_Framework_TestCase
+class ExemploTest extends PHPUnit_Framework_TestCase
 {
     /** @var Backend\Exemplo */
     protected $exemplo;
@@ -17,7 +17,7 @@ class ExemploTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->exemplo = new Backend\Exemplo();
+        $this->exemplo = new Exemplo();
     }
 
     /**

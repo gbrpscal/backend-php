@@ -10,8 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Moovin\\Job\\Backend\\": "src/",
-            "Moovin\\Job\\Backend\\Tests\\": "tests/"
-        }
+            "gbrpscal\\": "src/"
+        }    
     }
 }
