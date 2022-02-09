@@ -26,8 +26,7 @@ class Validations
             $value > $funds
             &&
             ! is_null($funds)
-        ) 
-        {
+        ) {
             throw new InsufficientFundsException();
         }
         return true;
